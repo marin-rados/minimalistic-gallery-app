@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 6rem;
+  border-bottom: 1px solid black;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 0rem 3rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+  border: 1px solid red;
+}
+
+.name {
+  display: flex;
+}

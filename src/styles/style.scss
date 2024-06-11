@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+//imports
+@import "./components/gallery.scss";
+@import "./components/galleryRow.scss";
+@import "./components/header.scss";
+@import "./components/layout.scss";
