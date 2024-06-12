@@ -9,7 +9,12 @@ const GalleryRow = ({ data }: Props) => {
     <div className="gallery-row">
       {data.map((image) => {
         return (
-          <img src={image.image} alt="Image" className="gallery-row__image" />
+          <img
+            key={image.image}
+            src={image.image}
+            alt="Image"
+            className="gallery-row__image"
+          />
         );
       })}
     </div>

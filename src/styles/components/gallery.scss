@@ -3,4 +3,12 @@
   gap: 1rem;
   width: 100%;
   padding: 0 3rem;
+  position: relative;
+}
+
+@media (max-width: 720px) {
+  .gallery {
+    flex-direction: column;
+    padding: 0 1.5rem;
+  }
 }
