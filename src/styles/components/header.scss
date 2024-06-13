@@ -73,6 +73,24 @@
   display: flex;
 }
 
+@media (max-width: 1200px) {
+  .header {
+    padding: 3rem 0rem;
+    flex-direction: column;
+  }
+  .header__title__name {
+    font-size: 2rem;
+  }
+  .info {
+    display: none;
+  }
+  .header__socials__link,
+  .header__socials__link__icon {
+    height: 1.2rem;
+    margin-right: 0.5rem;
+  }
+}
+
 @media (max-width: 720px) {
   .header {
     padding: 3rem 0rem;
